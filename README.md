@@ -1,6 +1,7 @@
 # Kampania Dungeons & Dragons: Oddech Mrozu
 
 Copyrights 2021 - Daniel Krawczyk
+
 Wszelkie materiały użyte przy projekcie nie są moją własnością i należą do ich prawnych właścicieli. Sam projekt wykorzystuje tylko i wyłącznie do celów prywatnych, w tym edukacyjnych (praca nad umiejętnościami programistycznymi).
 
 Pod koniec projektu muzyka zostanie usunięta, teraz służy jedynie testom i jest moim wyborem (uwielbiam <3). Zostanie jedynie opis jak będzie można własne utwory zaimplementować do projektu (postaram się, żeby było to jak najprostsze).
