@@ -9,9 +9,10 @@
   
   
   Aktualnie gra oferuje krótkie, aczkolwiek grywalne demo. Prezentuje ono wstępny zarys interfejsu, rozgrywki i mechaniki, która będzie nam towarzyszyć. Na ten moment w grze jest dostępne:
-  - Krótki wstęp do historii,
+  - Krótki wstęp do historii, test mechaniki efektów postaci (Zmęczenie z bocznego menu znika, gdy postać pójdzie spać), jedno testowe zadanie, test mechaniki zbierania doświadczenia przez postać, dwa testowe rzuty, jeden dialog i jeden wybór.
+  - System rzutu kością d20,
   - Mapa świata,
-  - Funkcjonalny ekwipunek (narazie nie ma okazji, żeby użyć przedmiotów dlatego takiej możliwości nie ma),
+  - Funkcjonalny ekwipunek (połączony z bocznym menu, które wyświetla wagę wszystkich przedmiotów),
   - Opis postaci wraz z portretem, statystykami i najważniejszymi informacjami,
   - Dziennik zadań (będzie wyglądał zupełnie inaczej),
   - Opcje gry (niewiele jest do wyboru jak opcja sterowania muzyką),
