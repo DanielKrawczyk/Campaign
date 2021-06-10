@@ -34,8 +34,6 @@
   - React.js,
   - React-Redux.
   
-  Dodatkowo powstaje druga wersja tej samej kampanii. Jedyna różnica będzie taka, że w przypadku drugiej kopii użyje frameworku Angular.
-  
   
   
   Dodatkowo warto nadmienić, iż wszystkie materiały użyte w tym projekcie nie są moją własnością i należą do ich prawnych właścicieli. Służą mi jedynie do celów prywatnych jak i edukacyjnych. 
