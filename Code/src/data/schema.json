@@ -1,0 +1,165 @@
+{
+    "story":[
+        {
+            "id":"(id historii (number)",
+            "type":"text",
+            "text":"Tekst zwykłej historii bez dodatków czy wyborów",
+            "next":[
+               {
+                   "text":"tekst przycisku przejścia dalej (default = Dalej.)",
+                   "path":"(opcjonalnie) id historii do której prowadzi opcja (number)"
+               }
+            ],
+            "events": {
+                "type":"ADD_QUEST",
+                "id":"Klucz do pokoju",
+                "item":"Klucz do pokoju w gospodzie"
+            }
+        },
+        {
+            "type":"dialogue",
+            "who":"Kto aktualnie się wypowiada",
+            "text":"Dialog postaci",
+            "next":[
+                {
+                    "text":"tekst przycisku przejścia dalej",
+                    "path":"(opcjonalnie) id historii do której prowadzi opcja (number)",
+                    "require": {
+                        "type":"(opcjonalnie) typ wymagania do wyświetlenia dialogu",
+                        "id":"(opcjonalnie) id zadania/przedmiotu/efektu"
+                    }
+                }
+            ],
+            "events":""
+        },
+        {
+            "type":"roll",
+            "text":"Tekst sytuacji wymagającej rzut kością",
+            "difficulty":"Stopień trudności rzutu (number)",
+            "stat":"Statystyka poddawana próbie",
+            "next":{
+                "success":"id historii do której prowadzi udany rzut (number)",
+                "failure":"id historii do której prowadzi nieudany rzut (number)"
+            },
+            "events":""
+        },
+        {
+            "type":"location",
+            "text":"Opis lokacji w której się znajdujesz",
+            "next":[
+                {
+                    "text":"tekst przycisku przejścia dalej",
+                    "path":"(opcjonalnie) id historii do której prowadzi opcja (number)"
+                }
+            ]
+        },
+        {
+            "events":[
+                "Przykładowe eventy:",
+                "(!) Dodanie nowego przedmiotu lub też zadania wiąże się z jego utworzeniem według schematu podanego w przykładzie!",
+                {
+                    "type":"ADD_QUEST",
+                    "id":[
+                        "nazwa zadania", 
+                        "opis zadania", 
+                        "ilość zdobytego doświadczenia po jego ukończeniu (number)"
+                    ],
+                    "item":"opcjonalnie otrzymany przedmiot (patrz schemat niżej)"
+                },
+                {
+                    "type":"ADD_ITEM",
+                    "id":[
+                        "nazwa przedmiotu",
+                        "waga przedmiotu (number)",
+                        "wartość przedmiotu (number, jeżeli 0 => przedmiotu nie można sprzedać)",
+                        "opis przedmiotu", 
+                        "typ przedmiotu (patrz: switch w komponencie Item)", 
+                        "ilość (number)"
+                    ]
+                },
+                {
+                    "type":"REMOVE_EFFECT",
+                    "id":[
+                        "nazwa efektu",
+                        "opis efektu"
+                    ]
+                },
+                {
+                    "type":"remove-quest-success",
+                    "id":"jak przy ADD_QUEST",
+                    "item":"jak przy ADD_QUEST"
+                },
+                {
+                    "type":"ADD_EXP",
+                    "id":"ilość doświadczenia (number)"
+                }
+            ]
+        }
+    ],
+    "quests":[
+        {
+            "id":"id zadania (number)",
+            "name":"nazwa zadania",
+            "stages":[
+                {
+                    "text":"opis aktualnego etapu zadania",
+                    "exp":"(opcjonalnie) doświadczenie za ukończenie etapu",
+                    "item":"(opcjonalnie) przedmiot otrzymany po zakończeniu etapu",
+                    "required":"(opcjonalnie) wymagania do ukończenia etapu"
+                }
+            ],
+            "current":"aktualny etap zadania (number)",
+            "exp":"nagroda za ukończenie całego zadania",
+            "reward":"(opcjonalnie) nagroda za zakończenie zadania"
+        }
+    ],
+    "items":[
+        {
+            "id":"id przedmiotu (number)",
+            "name":"nazwa przedmiotu",
+            "weight":"waga przedmiotu (number)",
+            "value":"wartość przedmiotu (number, jeżeli 0 => przedmiotu nie można sprzedać)",
+            "descr":"opis przedmiotu",
+            "type":"typ przedmiotu (patrz: switch w komponencie Item)",
+            "quantity":"ilość (number)",
+            "damage": {
+                "value":"ilość zadawanych obrażeń (number)",
+                "type":"Typ zadawanych obrażeń"
+            }
+        }
+    ],
+    "effects":[
+        {
+            "id":"id efektu (number)",
+            "name":"nazwa efektu",
+            "descr":"opis efektu",
+            "type":"typ efektu",
+            "affect":[
+                "spis statystyk na jakie oddziałowuje efekt"
+            ]
+        }
+    ],
+    "enemies":[
+        {
+            "id":"id przeciwnika (number)",
+            "name":"nazwa przeciwnika",
+            "descr":"opis przeciwnika",
+            "hp":"punkty życia przeciwnika",
+            "AC":"klasa pancerza",
+            "attack": {
+                "type":"typ ataku",
+                "value":"zadawane obrażenia (wartość podaje się w wartościach kości, np. 1k4, 1k20, 2k10)"
+            },
+            "defense": [
+                {
+                    "type":"typ ataku, przed którym przeciwnik jest odporny",
+                    "value":"wartość procentowa obrony (number, ujemna oznacza wrażliwość, dodatnia odporność, przy wartościach większych od 100 przeciwnik otrzymuje dodatkowe punkty życia bazujące na otrzymanych obrażeniach)"
+                }
+            ],
+            "trophies":[
+                "lista przedmiotów otrzymanych po pokonaniu przeciwnika"
+            ]
+
+        }
+    ]
+}
