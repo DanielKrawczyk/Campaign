@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/campaign/static/css/main.880a54cd.chunk.css",
+    "main.css": "/campaign/static/css/main.4ace2b66.chunk.css",
     "main.js": "/campaign/static/js/main.709c8da5.chunk.js",
     "main.js.map": "/campaign/static/js/main.709c8da5.chunk.js.map",
     "runtime-main.js": "/campaign/static/js/runtime-main.db7eaa3f.js",
@@ -8,14 +8,14 @@
     "static/js/2.872f60a8.chunk.js": "/campaign/static/js/2.872f60a8.chunk.js",
     "static/js/2.872f60a8.chunk.js.map": "/campaign/static/js/2.872f60a8.chunk.js.map",
     "index.html": "/campaign/index.html",
-    "static/css/main.880a54cd.chunk.css.map": "/campaign/static/css/main.880a54cd.chunk.css.map",
+    "static/css/main.4ace2b66.chunk.css.map": "/campaign/static/css/main.4ace2b66.chunk.css.map",
     "static/js/2.872f60a8.chunk.js.LICENSE.txt": "/campaign/static/js/2.872f60a8.chunk.js.LICENSE.txt",
     "static/media/main.css": "/campaign/static/media/link.ca4e03c2.cur"
   },
   "entrypoints": [
     "static/js/runtime-main.db7eaa3f.js",
     "static/js/2.872f60a8.chunk.js",
-    "static/css/main.880a54cd.chunk.css",
+    "static/css/main.4ace2b66.chunk.css",
     "static/js/main.709c8da5.chunk.js"
   ]
 }
