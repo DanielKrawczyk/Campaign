@@ -1,4 +1,4 @@
-# Kampania Dungeons & Dragons - Oddech Mrozu (Full code review - "src" folder)
+# Kampania Dungeons & Dragons - Oddech Mrozu (Full code review - "Code" folder)
 
   Przeżyj epicką przygodę w świecie Zapomnianych Krain jako żądna wiedzy czarodziejka Ismena! Twoja podróż poprzez nadmorski gościniec w końcu dobiegła końca. Twym oczom ukazuje się długo pożądane miasto Luskan, portowy zakamarek każdego kochającego morze męża. Wieża Tajemnych Arkan widnieje nad horyzontem niby latarnia przy brzegu. Potężne drzewo wyrastające z ogromnej budowli pnie swe gałęzie wysoko ponad chmury, wskazując wędrownym cel ich podróży. Jednak nieprędko przyjdzie Ci zgłębić jej sekrety...
   
