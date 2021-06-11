@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "name":"Zmęczenie",
+        "descr":"Postać otrzymuje utrudnienie w rzutach opartych na Sile, Zręczności i Kondycji.",
+        "type":"disadvantage",
+        "affect": [
+            "Siła",
+            "Zręczność",
+            "Kondycja"
+        ]
+    }
+]

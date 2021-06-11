@@ -1,0 +1,123 @@
+#equipment {
+    .content {
+        @include padding-Y(2rem);
+        @include underline;
+
+        h1 {
+            text-align: center;
+            color: $font;
+            font-size: 3rem;
+            @include merienda;
+        }
+    }
+}
+
+.gold h3 {
+    text-align: center;
+    @include padding-Y(1rem);
+}
+
+#item {
+    .content {
+        color: $font;
+        text-align: center;
+        padding: 2rem;
+
+        & .gold {
+            @include sriracha;
+        }
+
+        &-list {
+            @include flex(row wrap, center, center);
+
+            &_item {
+                width: 240px;
+                height: 320px;
+                padding: 1rem;
+                margin: 0.5rem;
+                background-color: rgb(20, 20, 20);
+                border: 2px solid $primary;
+                border-radius: 20px;
+                opacity: 0.6;
+
+                @include transition(0.2s);
+
+                &_frame {
+
+
+                    &_pic img {
+                        width: 200px;
+                        height: 200px;
+                    }
+
+                    &_name {
+                        font-size: 0.8rem;
+                        font-weight: bold;
+
+                        & small {
+                            font-size: 0.5rem;
+                            font-style: italic;
+                        }
+                    }
+
+                    &_info {
+                        margin: 1rem;
+                        padding: 0.5rem;
+                        @include flex(row nowrap, space-between, inherit);
+                    }
+                }
+
+                &:hover {
+                    opacity: 0.9;
+                    transform: translateY(-3%);
+                    box-shadow: 5px 5px rgba(20, 20, 20, 0.9);
+                }
+            }
+        }
+    }
+}
+.info {
+    position: fixed;
+    display: none;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: $font;
+    background-color: rgba(20, 20, 20, 0.9);
+
+    &.show {
+        display: block;
+    }
+
+    .content {
+        width: 60%;
+        height: 60%;
+        margin-top: 5rem;
+        border: 2px solid $primary;
+        border-radius: 20px;
+        background-color: #000;
+        @include marginAuto;
+
+        &-info {
+            padding: 1rem;
+            @include flex(row nowrap, space-between, center);
+
+            &_pic img {
+                width: 200px;
+                height: 200px;
+            }
+
+            &_desc {
+                width: 60%;
+                right: 0;
+            }
+
+            &_buttons {
+                padding: 2rem;
+                @include flex(row, center, center);
+            }
+        }
+    }
+}

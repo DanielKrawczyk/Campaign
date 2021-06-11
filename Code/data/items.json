@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "name":"Księga badań Ismeny",
+        "weight": 2,
+        "value": 0,
+        "descr":"Oto dzieło Twojego życia. Księga z którą nigdy się nie rozstajesz. Zapiski, które się w niej znajdują, są zbyt cenne by znalazł się jakikolwiek skarbiec na tym świecie zdolny ją ukryć przed chciwymi spojrzeniami. Dla większego bezpieczeństwa nałożyłaś na księgę mnóstwo zaklęć i pułapek, żeby potencjalny złodziej miał paskudną niespodziankę.",
+        "type":"book",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "name":"Klucz do pokoju w gospodzie",
+        "weight": 0.25,
+        "value": 0,
+        "descr":"Ten klucz otrzymałaś od właściciela gospody. Musisz mu go zwrócić przed opuszczeniem gospody.",
+        "type":"item",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "name":"Tajemnicza notatka",
+        "weight": 0.25,
+        "value": 0,
+        "descr":"Znalazłaś tą notatkę pod drzwiami wynajętego przez Ciebie pokoju w gospodzie \"Królewskie Dłonie\". Treść to tylko jedno zdanie \"Uważaj na siebie\".",
+        "type":"paper",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "name":"Ubiór podróżnika",
+        "weight": 2,
+        "value": 5,
+        "descr":"Zwykły ubiór przygotowany specjalnie dla ludzi, dla których podróżowanie stało się codziennością.",
+        "type":"clothes",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "name":"Zapasy jedzenia",
+        "weight": 1,
+        "value": 1,
+        "descr":"Pakunek pełen rozmaitości, by uciszyć choć trochę żołądek w chwilach na szlaku.",
+        "type":"item",
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "name":"Mikstura leczenia",
+        "weight": 0.5,
+        "value": 50,
+        "descr":"Każdy, kto wypije magiczny czerwony płyn natychmiast odzyskuje 2k4 + 2 PW. Uwaga! Zachowaj szczególną ostrożność picia przy białym odzieżu! Plamy nie chcą się później doczyścić!",
+        "type":"potion",
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "name":"Torba podróżnicza",
+        "weight": 0.5,
+        "value": 5,
+        "descr":"Zwykła torba podróżnicza do przechowywania przeróżnych przedmiotów. Pomieści kilkanaście mikstur, kilka książek i jednego niezwykle upierdliwego fana.",
+        "type":"item",
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "name":"Sztylet",
+        "weight": 1,
+        "value": 2,
+        "descr":"Stalowy sztylet z bardzo dobrze wyważoną rękojeścią. Idealny dla złodziei i magów, którzy niewiele angażują się bezpośrednio w walkę. Przydaje się też do precyzyjnego krojenia chleba.",
+        "type":"dagger",
+        "quantity": 1,
+        "damage": {
+            "value":"1d4",
+            "type":"kłute"
+        }
+    },
+    {
+        "id":"id przedmiotu (number)",
+        "name":"nazwa przedmiotu",
+        "weight":"waga przedmiotu (number)",
+        "value":"wartość przedmiotu (number, jeżeli 0 => przedmiotu nie można sprzedać)",
+        "descr":"opis przedmiotu",
+        "type":"typ przedmiotu (patrz: switch w komponencie Item)",
+        "quantity":"ilość (number)"
+    },
+    {
+        "id":"id przedmiotu (number)",
+        "name":"nazwa przedmiotu",
+        "weight":"waga przedmiotu (number)",
+        "value":"wartość przedmiotu (number, jeżeli 0 => przedmiotu nie można sprzedać)",
+        "descr":"opis przedmiotu",
+        "type":"typ przedmiotu (patrz: switch w komponencie Item)",
+        "quantity":"ilość (number)"
+    }
+]
