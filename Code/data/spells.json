@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "type":"battle",
+        "name":"Płonące dłonie",
+        "descr":"",
+        "lvl": 1,
+        "effect":"damage",
+        "attack": {
+            "type":"",
+            "value":"",
+            "saving_throw": {
+                "atr":"",
+                "failed": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "id": 2,
+        "type":"battle",
+        "name":"Magiczny pocisk",
+        "descr":"",
+        "lvl": 1,
+        "effect":"damage",
+        "attack": {
+            "type":"",
+            "value":"",
+            "saving_throw": {
+                "atr":"",
+                "failed": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "id": 3,
+        "type":"adventure",
+        "name":"Wykrycie magii",
+        "descr":"",
+        "lvl": 1,
+        "effect":"buff",
+        "attack": {
+            "type":"",
+            "value":"",
+            "saving_throw": {
+                "atr":"",
+                "failed": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "id": 4,
+        "type":"adventure/battle",
+        "name":"Uśpienie",
+        "descr":"",
+        "lvl": 1,
+        "effect":"debuff",
+        "attack": {
+            "type":"",
+            "value":"",
+            "saving_throw": {
+                "atr":"",
+                "failed": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "id": 5,
+        "type":"adventure/battle",
+        "name":"Zbroja maga",
+        "descr":"",
+        "lvl": 1,
+        "effect":"buff",
+        "attack": {
+            "type":"",
+            "value":"",
+            "saving_throw": {
+                "atr":"",
+                "failed": [
+                    ""
+                ]
+            }
+        }
+    }
+]
