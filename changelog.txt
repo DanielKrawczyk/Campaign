@@ -1,4 +1,4 @@
-v0.1.1 13.06.2021:
+v0.1.1 22.06.2021:
     - changed equipment style,
     - added icons for items,
     - updated events in text,
