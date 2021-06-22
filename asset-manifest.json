@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/campaign/static/css/main.337ecf7e.chunk.css",
-    "main.js": "/campaign/static/js/main.c4b3b8a3.chunk.js",
-    "main.js.map": "/campaign/static/js/main.c4b3b8a3.chunk.js.map",
+    "main.css": "/campaign/static/css/main.c5a6dbbe.chunk.css",
+    "main.js": "/campaign/static/js/main.099ecbb8.chunk.js",
+    "main.js.map": "/campaign/static/js/main.099ecbb8.chunk.js.map",
     "runtime-main.js": "/campaign/static/js/runtime-main.db7eaa3f.js",
     "runtime-main.js.map": "/campaign/static/js/runtime-main.db7eaa3f.js.map",
-    "static/js/2.992c935e.chunk.js": "/campaign/static/js/2.992c935e.chunk.js",
-    "static/js/2.992c935e.chunk.js.map": "/campaign/static/js/2.992c935e.chunk.js.map",
+    "static/js/2.dd2891c9.chunk.js": "/campaign/static/js/2.dd2891c9.chunk.js",
+    "static/js/2.dd2891c9.chunk.js.map": "/campaign/static/js/2.dd2891c9.chunk.js.map",
     "index.html": "/campaign/index.html",
-    "static/css/main.337ecf7e.chunk.css.map": "/campaign/static/css/main.337ecf7e.chunk.css.map",
-    "static/js/2.992c935e.chunk.js.LICENSE.txt": "/campaign/static/js/2.992c935e.chunk.js.LICENSE.txt",
+    "static/css/main.c5a6dbbe.chunk.css.map": "/campaign/static/css/main.c5a6dbbe.chunk.css.map",
+    "static/js/2.dd2891c9.chunk.js.LICENSE.txt": "/campaign/static/js/2.dd2891c9.chunk.js.LICENSE.txt",
     "static/media/main.css": "/campaign/static/media/link.ca4e03c2.cur"
   },
   "entrypoints": [
     "static/js/runtime-main.db7eaa3f.js",
-    "static/js/2.992c935e.chunk.js",
-    "static/css/main.337ecf7e.chunk.css",
-    "static/js/main.c4b3b8a3.chunk.js"
+    "static/js/2.dd2891c9.chunk.js",
+    "static/css/main.c5a6dbbe.chunk.css",
+    "static/js/main.099ecbb8.chunk.js"
   ]
 }
