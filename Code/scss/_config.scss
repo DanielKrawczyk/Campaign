@@ -1,0 +1,105 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
+$primary: rgb(150, 0, 0);
+$primary-tr: rgba(200, 0, 0, 0.6);
+$primary-tr2: rgba(200, 0, 0, 0.9);
+$bg-dark: rgba(30, 30, 30, 0.7);
+$font: #fff;
+$font-a: rgb(200, 200, 200);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    cursor: url('../img/cursor.cur'), default;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    src: url('../fonts/Sriracha-Regular.ttf');
+    font-family: 'Sriracha';
+}
+
+@mixin sriracha {
+    font-family: 'Sriracha', sans-serif;
+}
+
+@font-face {
+    src: url('../fonts/Merienda-Regular.ttf');
+    font-family: 'Merienda';
+}
+
+@mixin merienda {
+    font-family: 'Merienda', sans-serif;
+}
+
+@font-face {
+    src: url('../fonts/daedric_runes.ttf');
+    font-family: 'Daedric';
+}
+
+@mixin daedric {
+    font-family: 'Daedric';
+}
+
+@mixin marginAuto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin margin-Y($m-Y) {
+    margin-top: $m-Y;
+    margin-bottom: $m-Y;
+}
+
+@mixin flex($flow, $justify, $align) {
+    display: flex;
+    flex-flow: $flow;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin padding-Y($p-Y) {
+    padding-top: $p-Y;
+    padding-bottom: $p-Y;
+}
+
+@mixin pointer {
+    cursor: url('../img/link.cur'), default;
+}
+
+@mixin transition($sec) {
+    transition: all $sec ease-in-out;
+}
+
+@mixin border-Y($b-Y) {
+    border-top: $b-Y;
+    border-bottom: $b-Y;
+}
+
+@mixin border-X($b-X) {
+    border-left: $b-X;
+    border-right: $b-X;
+}
+
+@mixin a-hover {
+    color: $font-a;
+
+    &:hover {
+        color: $font;
+        @include pointer;
+    }
+}
+
+@mixin visible {
+    &.visible {
+        opacity: 1;
+    }
+}

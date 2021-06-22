@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name":"Szczur",
+        "descr":"Oślizgły szczur roznoszący choroby.",
+        "hp": 1,
+        "AC": 10,
+        "exp": 10,
+        "attack": {
+            "type":"kłute",
+            "value":"1k1"
+        },
+        "rolls": [
+            {
+                "name":"str",
+                "value": -4
+            },
+            {
+                "name":"dex",
+                "value": 0
+            },
+            {
+                "name":"con",
+                "value": -1
+            },
+            {
+                "name":"int",
+                "value": -4
+            },
+            {
+                "name":"wis",
+                "value": 0
+            },
+            {
+                "name":"cha",
+                "value": -3
+            }
+        ],
+        "defense": [
+            
+        ],
+        "trophies": {
+            "type":"random",
+            "available": [
+                {
+                    "type":"gold",
+                    "amount": 1
+                }
+            ]
+        }
+    }
+]

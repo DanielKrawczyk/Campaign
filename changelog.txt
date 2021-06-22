@@ -1,0 +1,36 @@
+v0.1.1 13.06.2021:
+    - changed equipment style,
+    - added icons for items,
+    - updated events in text,
+    - updated quests mechanic,
+    - prepared ground for save game option,
+    - added game over after going to jail,
+    - added new items,
+    - added new sounds,
+    - updated character .json file,
+    - changed character statistics display - now with additional info about hovered skill ( available in polish only ),
+    - added quests sorting function,
+    - added version information at main menu,
+    - added function that checks if character ha already visited particular NPC,
+    - fixed missing cursor in main menu,
+    - minor bux fixed.
+
+
+v0.1, 11.06.2021:
+    - changed main menu style,
+    - replaced arrays with objects in .json files,
+    - prepared schema for every .json data object,
+    - applied changes to some functions and components that required arrays from .json files,
+    - changed some media querries for max-width 799px,
+    - added separately .json file for every important data content,
+    - added index.js file to gather all .json data in one object,
+    - prepared ground for the first fight tests,
+    - updated redux store actions,
+    - fixed music issue,
+    - fixed redux multiple actions with asynchronous function,
+    - fixed duplicated music audio issue on Chrome,
+    - fixed world map scale issue,
+    - minor bug fixed.
+
+Notes:
+    - It appears Recoil is doing better job in handling random music event than useState hook. No music stopped randomly so far.

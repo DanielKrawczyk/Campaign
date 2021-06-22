@@ -1,0 +1,50 @@
+[
+    {
+        "type":"merchant",
+        "dialogue": {
+            "first":"",
+            "friendly": [
+
+            ],
+            "neutral": [
+
+            ],
+            "enemy": [
+
+            ]
+        }
+    },
+    {
+        "type":"guard",
+        "dialogue": {
+            "first":"",
+            "friendly": [
+
+            ],
+            "neutral": [
+                "Czy coś się stało, obywatelu?",
+                "Coś się dzieje? Bandyci? Złodzieje?"
+            ],
+            "enemy": [
+
+            ]
+        }
+    },
+    {
+        "type":"blacksmith",
+        "dialogue": {
+            "first":"Witaj! Ciągle na szlaku, co? Widzę Cię tu pierwszy raz! Mam na wyposażeniu kilka niezłych ostrzy zdolne przeciąć nawet najtwardszą stal! ",
+            "friendly": [
+
+            ],
+            "neutral": [
+                "Witaj! Od ostatniego czasu niewiele się zmieniło, ale nadal oferuje towary najwyższej jakości!",
+                "Witaj! Czego sobie zażyczysz to mogę Ci wykuć! Oczywiście wszystko w granicach rozsądku.",
+                "Witaj! Dobrze Cię znowu widzieć! Moje towary to wykonanie mistrzowskich dłoni!"
+            ],
+            "enemy": [
+
+            ]
+        }
+    }
+]

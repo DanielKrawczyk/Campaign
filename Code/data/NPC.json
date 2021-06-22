@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":"Właściciel gospody",
+        "visited": false,
+        "type":"merchant",
+        "status":"neutral"
+    },
+    {
+        "id": 2,
+        "name":"Kowal Bill",
+        "visited": false,
+        "type":"blacksmith",
+        "status":"neutral"
+    },
+    {
+        "id": 3,
+        "name":"Płatnerz Ben",
+        "visited": false,
+        "type":"blacksmith",
+        "status":"neutral"
+    },
+    {
+        "id": 4,
+        "name":"Kupiec Almar",
+        "visited": false,
+        "type":"merchant",
+        "status":"neutral"
+    },
+    {
+        "id": 5,
+        "name":"Strażnik pałacu",
+        "visited": false,
+        "type":"guard",
+        "status":"neutral"
+    },
+    {
+        "id": 6,
+        "name":"Strażnik miasta",
+        "visited": false,
+        "type":"guard",
+        "status":"neutral"
+    },  
+    {
+        "id": 7,
+        "name":"Strażnik bramy",
+        "visited": false,
+        "type":"guard",
+        "status":"neutral"
+    }  
+]
