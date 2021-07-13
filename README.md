@@ -1,5 +1,6 @@
 # Kampania Dungeons & Dragons - Oddech Mrozu 
 # (Full code review - "Code" folder)
+## Link: https://danielkrawczyk.github.io/campaign
 
   Przeżyj epicką przygodę w świecie Zapomnianych Krain jako żądna wiedzy czarodziejka Ismena! Twoja podróż poprzez nadmorski gościniec w końcu dobiegła końca. Twym oczom ukazuje się długo pożądane miasto Luskan, portowy zakamarek każdego kochającego morze męża. Wieża Tajemnych Arkan widnieje nad horyzontem niby latarnia przy brzegu. Potężne drzewo wyrastające z ogromnej budowli pnie swe gałęzie wysoko ponad chmury, wskazując wędrownym cel ich podróży. Jednak nieprędko przyjdzie Ci zgłębić jej sekrety...
   
@@ -19,7 +20,7 @@
   - Opcje gry (niewiele jest do wyboru jak opcja sterowania muzyką),
   - Boczne menu pokazujące podstawowe informacje potrzebne podczas rozgrywki,
   - Efekty dźwiękowe dla każdego przedmiotu,
-  - Grająca w tle muzyka z opcją losowości utworów (czasami zdarza się, że muzyka się zatrzyma i nie zadziała funkcja losująca muzykę, ale to jest problem losowy. Dodatkowo znany mi jest problem w przypadku przeglądarki Chrome, gdzie muzyka z menu głównego pokrywa się z muzyką w grze. To też jest problem losowy, raz działa, raz nie działa. Inne przeglądarki nie mają z tym żadnych problemów).
+  - Grająca w tle muzyka z opcją losowości utworów.
   
   Dodatkowo wszystko jest także dostosowane pod telefony, tablety i mniejsze ekrany komputerów.
   
