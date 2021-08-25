@@ -39,3 +39,5 @@
   
   
   Dodatkowo warto nadmienić, iż wszystkie materiały użyte w tym projekcie nie są moją własnością i należą do ich prawnych właścicieli. Służą mi jedynie do celów prywatnych jak i edukacyjnych. 
+  
+Odwiedź też moje portfolio: http://www.danielsweb.pl/
